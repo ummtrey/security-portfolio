@@ -9,9 +9,9 @@ hand  -  they just chain the standard steps and keep output organized per target
 
 ## Contents
 
-- **[`recon/recon.sh`](./recon/recon.sh)**  -  passive subdomain enum -> live-host
+- **[`recon/recon.md`](./recon/recon.md)**  -  passive subdomain enum -> live-host
   probing -> takeover check -> historical URLs, into a per-target folder
-- **[`helpers/extract-js-endpoints.py`](./helpers/extract-js-endpoints.py)**  - 
+- **[`helpers/extract-js-endpoints.md`](./helpers/extract-js-endpoints.md)**  - 
   pull candidate endpoints/paths out of a saved JS file
 
 ## Requirements
