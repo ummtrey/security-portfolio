@@ -1,10 +1,6 @@
-# bug-bounty-notes
+# security-portfolio
 
-My working notes, checklists, and sanitized writeups from bug bounty hunting.
-
-I'm a bug bounty hunter (HackerOne: `ummtrey`, Intigriti: `trey708`) building
-toward a penetration testing role. This repo is where I keep the methodology I
-actually use, so it's a living document rather than a copy of a textbook.
+My bug bounty methodology, sanitized writeups, and sample pentest reports.
 
 ## Contents
 
@@ -15,16 +11,9 @@ actually use, so it's a living document rather than a copy of a textbook.
   - [`recon-methodology.md`](./methodology/recon-methodology.md)
   - [`testing-workflow.md`](./methodology/testing-workflow.md)
 - **[`writeups/`](./writeups)** — sanitized writeups of resolved findings
-
-## Disclosure & ethics
-
-Everything here is for authorized testing within bug bounty program scope only.
-Writeups are published **only** when a finding is resolved and the program
-permits disclosure, and all target names and identifiers are redacted. Nothing
-in this repo targets any system I'm not authorized to test.
-
-## Toolkit
-
-Burp Suite, subfinder, httpx, nuclei, subzy, gau, interactsh — run from a Kali
-VM. Learning stack: PortSwigger Web Security Academy, TCM Security, TryHackMe.
-
+- **[`pentest-reports/`](./pentest-reports)** — sample reports and a reporting template
+  - [`report-template.md`](./pentest-reports/templates/report-template.md)
+  - [`sample-webapp-lab-report.md`](./pentest-reports/reports/sample-webapp-lab-report.md)
+- **[`security-tools/`](./security-tools)** — recon command and workflow references
+  - [`recon-commands.md`](./security-tools/recon-commands.md)
+  - [`js-endpoint-review.md`](./security-tools/js-endpoint-review.md)
