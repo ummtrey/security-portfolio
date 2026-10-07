@@ -15,5 +15,5 @@ My bug bounty methodology, sanitized writeups, and sample pentest reports.
   - [`report-template.md`](./pentest-reports/templates/report-template.md)
   - [`sample-webapp-lab-report.md`](./pentest-reports/reports/sample-webapp-lab-report.md)
 - **[`security-tools/`](./security-tools)** — recon command and workflow references
-  - [`recon-commands.md`](./security-tools/recon-commands.md)
-  - [`js-endpoint-review.md`](./security-tools/js-endpoint-review.md)
+  - [`recon.md`](./security-tools/recon/recon.md)
+  - [`extract-js-endpoints.md`](./security-tools/helpers/extract-js-endpoints.md)
